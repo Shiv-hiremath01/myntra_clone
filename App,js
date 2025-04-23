@@ -1,0 +1,6 @@
+const cors = require('cors');
+
+app.use(cors({
+  origin: 'http://localhost:3005', // React app URL
+  credentials: true,
+}));
